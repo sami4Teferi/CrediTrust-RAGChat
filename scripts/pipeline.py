@@ -20,7 +20,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def run_task2():
+def run_pipline():
     """Execute the Task 2 pipeline."""
     try:
         logger.info("Starting Task 2: Chunking, Embedding, and Indexing")
@@ -57,4 +57,4 @@ def run_task2():
         raise
 
 if __name__ == "__main__":
-    run_task2()
+    run_pipline()
